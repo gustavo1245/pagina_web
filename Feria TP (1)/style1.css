@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #202020;
+}
+.row {
+    display: flex;
+}
+.separar {
+    padding: 50px;
+}
+.separar-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.imagenes {
+    width: 158px;
+    height: 158px;
+}
+.fotos {
+   border-radius: 80px; 
+} 
+.columna {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-1,
+.col-2,
+.col-3 {
+    flex: 1;
+
+    padding: 10px;
+    margin: 10px;
+}
+  
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+.alinear {
+    display: flex;
+    align-items: center;
+}
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #0e0e0e;
+
+    width: 1200px;
+    color: #624099;
+
+    margin: 0 auto;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #161616;
+
+    width: 1200px;
+    color: #6a45a5;
+
+    margin: 0 auto;
+    padding: 15px;
+    justify-content: space-between;
+}
+.imagen {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+header span {
+    color: #4e3477;
+}
+.busqueda {
+    width: 350px;
+    background-color: black;
+    border: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.color-1 {
+    background-image: url(imagenes/R.jfif);
+
+    width: 1200px;
+    height: 450px;
+
+    margin: 0 auto;
+}
+article {
+    display: flex;
+    align-items: center;
+    background-color: #161616;
+
+    width: 1200px;
+    color: #624099;
+
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.track-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.track {
+    background-color:silver;
+    border-radius: 35px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 20px;
+    width: 80%;
+}
+
+audio {
+    width: 100%;
+}
+
+a {
+    color: #8867bd;
+    text-decoration: none;
+}
